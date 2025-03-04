@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 500px;
+  border-radius: 30px;
+}
+.nav {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  display: flex;
+  gap: 16px;
+}
+.nav h1 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  margin-bottom: 60px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  max-width: 950px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.lef h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+.lef p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 10px;
+}
+.lef button {
+  background-color: #3882f9;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 10px;
+  border: none;
+}
+.lef {
+  text-align: start;
+}
+.card img {
+  width: 100px;
+  height: 100px;
+}
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 50px;
+  color: #1f2937;
+}
+.card-section {
+  text-align: center;
+  padding: 80px 80px;
+  background-color: white;
+}
+.card-menu {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+.card {
+  max-width: 200px;
+  border: 1px solid #3882f9;
+  padding: 10px;
+}
+.text-header {
+  text-align: center;
+  background-color: #e5e7eb;
+  padding: 50px;
+}
+.text-star {
+  width: 900px;
+  margin: 0 auto;
+  text-align: start;
+}
+.text-star h1 {
+  font-size: 36px;
+  font-style: italic;
+  color: #394250;
+  padding-bottom: 20px;
+}
+.text-star p {
+  display: flex;
+  justify-content: end;
+  color: #1f2937;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.call-header {
+  background-color: #3882f9;
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 60px;
+  border-radius: 10px;
+}
+.header-call {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+.call-header h2 {
+  color: white;
+}
+.call-header p {
+  color: #334426;
+}
+.call-header button {
+  background-color: #3882f9;
+  color: white;
+  padding: 8px 25px;
+  border: 2px solid #e5e7eb;
+  font-size: 18px;
+  border-radius: 10px;
+}
+footer {
+  background-color: #1f2937;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
